@@ -1,6 +1,11 @@
 #!/bin/bash
 
-cp /etc/apt/sources.list /etc/apt/sources.list.bak
-rm /etc/apt/sources.list.d/ubuntu-repos.list /etc/apt/sources.list.d/neon-repos.list
+SOURCES_LIST="/etc/apt/sources.list"
+UBUNTU_SOURCES_BIONIC="/etc/apt/sources.list.d/ubuntu-bionic-repo.list"
+UBUNTU_SOURCES_FOCAL="/etc/apt/sources.list.d/ubuntu-focal-repo.list"
+NEON_SOURCES="/etc/apt/sources.list.d/neon-user-repo.list"
+APT_PREFS="/etc/apt/preferences"
+
+[ -f $SOURCES_LIST $UBUNTU_SOURCES $NEON_SOURCES $APT_PREFS ] && echo "Files exist!.\nExiting...\n" || echo "Files do not exist!.\nProceeding...\n" && rm /etc/apt/sources.list.d/ubuntu-repos.list /etc/apt/sources.list.d/neon-repos.list
 
 exit 0

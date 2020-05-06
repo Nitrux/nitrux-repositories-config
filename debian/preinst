@@ -1,5 +1,5 @@
 #!/bin/bash
 
-rm /etc/apt/sources.list /etc/apt/sources.d/ubuntu-repos.list /etc/apt/sources.d/neon-repos.list
+rm /etc/apt/sources.list /etc/apt/sources.list.d/ubuntu-repos.list /etc/apt/sources.list.d/neon-repos.list
 
 exit 0

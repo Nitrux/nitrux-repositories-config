@@ -1,4 +1,4 @@
-# NX Desktop Settings [![Build Status](https://travis-ci.org/Nitrux/nitrux-repository-settings.svg?branch=master)](https://travis-ci.org/Nitrux/nitrux-repository-settings)
+# Nitrux Repository Settings [![Build Status](https://travis-ci.org/Nitrux/nitrux-repository-settings.svg?branch=master)](https://travis-ci.org/Nitrux/nitrux-repository-settings)
 
 Custom settings for APT.
 

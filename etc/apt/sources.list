@@ -1,0 +1,5 @@
+################
+# Nitrux Repos #
+################
+
+deb https://repo.nxos.org/nitrux nitrux main

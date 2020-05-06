@@ -1,0 +1,6 @@
+##################
+# KDE Neon Repos #
+##################
+
+deb http://archive.neon.kde.org/user bionic main
+#deb http://archive.neon.kde.org/unstable bionic main

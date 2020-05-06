@@ -1,2 +1,8 @@
-# nitrux-repository-settings
-Package to update APT sources in Nitrux.
+# NX Desktop Settings [![Build Status](https://travis-ci.org/Nitrux/nitrux-repository-settings.svg?branch=master)](https://travis-ci.org/Nitrux/nitrux-repository-settings)
+
+Custom settings for APT.
+
+# Issues
+If you find problems with the contents of this repository please create an issue.
+
+©2020 Nitrux Latinoamericana S.C.

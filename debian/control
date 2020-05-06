@@ -1,0 +1,15 @@
+Source: nitrux-repository-settings
+Section: misc
+Priority: optional
+Maintainer: Uri Herrera <uri_herrera@nxos.org>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: http://nxos.org
+
+
+Package: nitrux-repository-settings
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Package to update APT sources in Nitrux.
+ This package will update APT sources.
+

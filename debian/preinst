@@ -1,11 +1,9 @@
 #!/bin/bash
 
-SOURCES_LIST="/etc/apt/sources.list"
-UBUNTU_SOURCES_BIONIC="/etc/apt/sources.list.d/ubuntu-bionic-repo.list"
-UBUNTU_SOURCES_FOCAL="/etc/apt/sources.list.d/ubuntu-focal-repo.list"
-NEON_SOURCES="/etc/apt/sources.list.d/neon-user-repo.list"
-APT_PREFS="/etc/apt/preferences"
-
-[ -f $SOURCES_LIST $UBUNTU_SOURCES $NEON_SOURCES $APT_PREFS ] && echo "Not doing anything." || echo "Deleting old repository files." && rm /etc/apt/sources.list.d/ubuntu-repos.list /etc/apt/sources.list.d/neon-repos.list
+OLD_SOURCES_FILES='
+/etc/apt/sources.list.d/ubuntu-repos.list
+/etc/apt/sources.list.d/neon-repos.list
+'
+rm $OLD_SOURCES_FILES
 
 exit 0

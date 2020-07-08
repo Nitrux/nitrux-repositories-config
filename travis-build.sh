@@ -8,9 +8,9 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 55751E5D
 wget -qO /etc/apt/sources.list.d/neon-user-repo.list https://raw.githubusercontent.com/Nitrux/nitrux-iso-tool/development/configs/files/sources.list.neon.user
 
 ### Install Dependencies
-apt-get --yes update
-apt-get --yes dist-upgrade
-apt-get --yes install devscripts lintian build-essential automake autotools-dev equivs
+apt-get -qq --yes update
+apt-get -qq --yes dist-upgrade
+apt-get -qq --yes install devscripts lintian build-essential automake autotools-dev equivs
 mk-build-deps -i -t "apt-get --yes" -r
 
 ### Build Deb

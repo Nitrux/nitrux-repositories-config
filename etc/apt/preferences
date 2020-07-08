@@ -45,3 +45,23 @@ Pin-Priority: -1
 Package: base-files
 Pin: release *
 Pin-Priority: -1
+
+Package: plymouth
+Pin: release *
+Pin-Priority: -1
+
+Package: libplymouth4
+Pin: release *
+Pin-Priority: -1
+
+Package: initramfs-tools
+Pin: release *
+Pin-Priority: -1
+
+Package: initramfs-tools-bin
+Pin: release *
+Pin-Priority: -1
+
+Package: initramfs-tools-core
+Pin: release *
+Pin-Priority: -1

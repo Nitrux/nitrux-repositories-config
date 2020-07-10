@@ -1,5 +1,12 @@
 #!/bin/bash
 
-apt -qq update
+[ -f /sbin/openrc-init ] && {
+		sed -i 's+#deb http://pkgmaster.devuan.org/devuan beowulf main+deb http://pkgmaster.devuan.org/devuan beowulf main+g ; s+#deb http://pkgmaster.devuan.org/devuan beowulf-updates main+deb http://pkgmaster.devuan.org/devuan beowulf-updates main+g' /etc/apt/sources.list.d/devuan-repo.list
+		sed -i 's+deb http://archive.ubuntu.com/ubuntu focal main restricted universe multiverse+#deb http://archive.ubuntu.com/ubuntu focal main restricted universe multiverse+g ; s+deb http://archive.ubuntu.com/ubuntu focal-security main restricted universe multiverse+#deb http://archive.ubuntu.com/ubuntu focal-security main restricted universe multiverse+g ; s+deb http://archive.ubuntu.com/ubuntu focal-updates main restricted universe multiverse+#deb http://archive.ubuntu.com/ubuntu focal-updates main restricted universe multiverse+g' /etc/apt/sources.list.d/ubuntu-focal-repo.list
+		sed -i 's+#deb http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse+deb http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse+g ; s+#deb http://archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse+deb http://archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse+g ; s+#deb http://archive.ubuntu.com/ubuntu bionic-updates main restricted universe multiverse+deb http://archive.ubuntu.com/ubuntu bionic-updates main restricted universe multiverse+g' /etc/apt/sources.list.d/ubuntu-bionic-repo.list 
+		apt -qq update
+	} || {
+		apt -qq update
+	}
 
-exit 0
+exit

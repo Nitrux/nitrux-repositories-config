@@ -1,4 +1,4 @@
-nitrux-repository-settings (0.1.2)  nitrux; urgency=medium
+nitrux-repository-settings (0.1.3)  nitrux; urgency=medium
 
   * Check if system uses OpenRC and enable or disable the appropriate repositories.
 

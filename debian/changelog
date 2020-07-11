@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.1.4)  nitrux; urgency=medium
+
+  * Enable more repositories if using OpenRC.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 09 Jul 2020 21:26:00 -0500
+
 nitrux-repository-settings (0.1.3)  nitrux; urgency=medium
 
   * Check if system uses OpenRC and enable or disable the appropriate repositories.

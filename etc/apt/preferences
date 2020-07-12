@@ -65,3 +65,27 @@ Pin-Priority: -1
 Package: initramfs-tools-core
 Pin: release *
 Pin-Priority: -1
+
+Package: pulseaudio
+Pin: 1:11.1-1ubuntu7.9
+Pin-Priority: -1
+
+Package: pulseaudio-utils
+Pin: 1:11.1-1ubuntu7.9
+Pin-Priority: -1
+
+Package: pulseaudio-module-bluetooth
+Pin: 1:11.1-1ubuntu7.9
+Pin-Priority: -1
+
+Package: libpulse0
+Pin: 1:11.1-1ubuntu7.9
+Pin-Priority: -1
+
+Package: libpulse-mainloop-glib0
+Pin: 1:11.1-1ubuntu7.9
+Pin-Priority: -1
+
+Package: libpulsedsp
+Pin: 1:11.1-1ubuntu7.9
+Pin-Priority: -1

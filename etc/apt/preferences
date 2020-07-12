@@ -89,3 +89,51 @@ Pin-Priority: -1
 Package: libpulsedsp
 Pin: version 1:11.1-1ubuntu7.9
 Pin-Priority: -1
+
+Package: pulseaudio
+Pin: version 1:11.1-1ubuntu7.7
+Pin-Priority: -1
+
+Package: pulseaudio-utils
+Pin: version 1:11.1-1ubuntu7.7
+Pin-Priority: -1
+
+Package: pulseaudio-module-bluetooth
+Pin: version 1:11.1-1ubuntu7.7
+Pin-Priority: -1
+
+Package: libpulse0
+Pin: version 1:11.1-1ubuntu7.7
+Pin-Priority: -1
+
+Package: libpulse-mainloop-glib0
+Pin: version 1:11.1-1ubuntu7.7
+Pin-Priority: -1
+
+Package: libpulsedsp
+Pin: version 1:11.1-1ubuntu7.7
+Pin-Priority: -1
+
+Package: pulseaudio
+Pin: version 1:11.1-1ubuntu7
+Pin-Priority: -1
+
+Package: pulseaudio-utils
+Pin: version 1:11.1-1ubuntu7
+Pin-Priority: -1
+
+Package: pulseaudio-module-bluetooth
+Pin: version 1:11.1-1ubuntu7
+Pin-Priority: -1
+
+Package: libpulse0
+Pin: version 1:11.1-1ubuntu7
+Pin-Priority: -1
+
+Package: libpulse-mainloop-glib0
+Pin: version 1:11.1-1ubuntu7
+Pin-Priority: -1
+
+Package: libpulsedsp
+Pin: version 1:11.1-1ubuntu7
+Pin-Priority: -1

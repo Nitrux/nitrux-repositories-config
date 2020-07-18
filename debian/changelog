@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.2.1)  nitrux; urgency=medium
+
+  * Use neon/focal, enable beowulf and disable bionic.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 17 Jul 2020 19:52:00 -0500
+
 nitrux-repository-settings (0.2.0)  nitrux; urgency=medium
 
   * Block calamares version from devuan.

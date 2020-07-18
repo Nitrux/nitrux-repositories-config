@@ -6,6 +6,8 @@ test -f /sbin/openrc-init && {
     -e 's+#deb http://pkgmaster.devuan.org/merged ceres main+deb http://pkgmaster.devuan.org/merged ceres main+g' \
     -e 's+#deb http://pkgmaster.devuan.org/devuan beowulf main+deb http://pkgmaster.devuan.org/devuan beowulf main+g' \
     -e 's+#deb http://pkgmaster.devuan.org/merged beowulf main+deb http://pkgmaster.devuan.org/merged beowulf main+g' \
+    -e 's+#deb http://pkgmaster.devuan.org/devuan beowulf-updates main+deb http://pkgmaster.devuan.org/devuan beowulf-updates main+g' \
+    -e 's+#deb http://pkgmaster.devuan.org/merged beowulf-updates main+deb http://pkgmaster.devuan.org/merged beowulf-updates main+g' \
     /etc/apt/sources.list.d/devuan-repo.list
 
   sed -i \

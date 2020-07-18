@@ -1,5 +1,11 @@
 nitrux-repository-settings (0.2.2)  nitrux; urgency=medium
 
+  * Remove block of bionic packages (we don't use them anymore), also enable beowulf-updates.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 18 Jul 2020 01:54:00 -0500
+
+nitrux-repository-settings (0.2.2)  nitrux; urgency=medium
+
   * Don't block installation of libqt5webkit5.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Fri, 17 Jul 2020 21:06:00 -0500

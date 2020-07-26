@@ -1,5 +1,11 @@
 nitrux-repository-settings (0.2.3)  nitrux; urgency=medium
 
+  * Added block for libplymouth5 if OpenRC is present.
+
+ -- Luis Lavaire <llavaire01@nxos.org>  Sun, 26 Jul 2020 03:52:00 -0600
+
+nitrux-repository-settings (0.2.3)  nitrux; urgency=medium
+
   * Remove duplicate entries in /etc/apt/preferences, add block for libplymouth5 if OpenRC is present.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Sun, 26 Jul 2020 04:57:00 -0500
@@ -135,7 +141,7 @@ nitrux-repository-settings (0.0.2)  nitrux; urgency=medium
   * Create package.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Tue, 05 May 2020 23:29:00 -0500
- 
+
 nitrux-repository-settings (0.0.1)  nitrux; urgency=medium
 
   * Create package.

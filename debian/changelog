@@ -1,4 +1,4 @@
-nitrux-repository-settings (0.2.3)  nitrux; urgency=medium
+nitrux-repository-settings (0.2.4)  nitrux; urgency=medium
 
   * Added block for libplymouth5 if OpenRC is present.
 

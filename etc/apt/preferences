@@ -14,10 +14,6 @@ Package: plymouth-theme-spinner
 Pin: release *
 Pin-Priority: -1
 
-Package: base-files
-Pin: release *
-Pin-Priority: -1
-
 Package: ksysguard
 Pin: release *
 Pin-Priority: -1
@@ -43,10 +39,6 @@ Pin: release *
 Pin-Priority: -1
 
 Package: plymouth
-Pin: release *
-Pin-Priority: -1
-
-Package: libplymouth4
 Pin: release *
 Pin-Priority: -1
 

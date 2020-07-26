@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.2.3)  nitrux; urgency=medium
+
+  * Remove duplicate entries in /etc/apt/preferences, add block for libplymouth5 if OpenRC is present.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sun, 26 Jul 2020 04:57:00 -0500
+
 nitrux-repository-settings (0.2.2)  nitrux; urgency=medium
 
   * Remove block of bionic packages (we don't use them anymore), also enable beowulf-updates.

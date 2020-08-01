@@ -80,6 +80,16 @@ test -f /sbin/openrc-init && {
 		'Package: systemd' \
 		'Pin: release *' \
 		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: plymouth-label' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: plymouth-themes' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
 } || {
 	sed -i \
 		-e 's+deb http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse+#deb http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse+g' \

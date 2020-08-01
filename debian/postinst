@@ -25,18 +25,22 @@ test -f /sbin/openrc-init && {
 		'Package: libplymouth5' \
 		'Pin: release *' \
 		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
 		' ' \
 		'Package: dictionaries-common' \
 		'Pin: release *' \
 		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
 		' ' \
 		'Package: bluez' \
 		'Pin: release *' \
 		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
 		' ' \
 		'Package: pulseaudio-module-bluetooth' \
 		'Pin: release *' \
 		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
 		' ' \
 		'Package: samba-common' \
 		'Pin: release *' \

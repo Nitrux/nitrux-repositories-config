@@ -2,8 +2,6 @@
 
 test -f /sbin/openrc-init && {
 	sed -i \
-		-e 's+#deb http://pkgmaster.devuan.org/devuan ceres main+deb http://pkgmaster.devuan.org/devuan ceres main+g' \
-		-e 's+#deb http://pkgmaster.devuan.org/merged ceres main+deb http://pkgmaster.devuan.org/merged ceres main+g' \
 		-e 's+#deb http://pkgmaster.devuan.org/devuan beowulf main+deb http://pkgmaster.devuan.org/devuan beowulf main+g' \
 		-e 's+#deb http://pkgmaster.devuan.org/merged beowulf main+deb http://pkgmaster.devuan.org/merged beowulf main+g' \
 		-e 's+#deb http://pkgmaster.devuan.org/devuan beowulf-updates main+deb http://pkgmaster.devuan.org/devuan beowulf-updates main+g' \
@@ -23,7 +21,24 @@ test -f /sbin/openrc-init && {
 		/etc/apt/sources.list.d/ubuntu-bionic-repo.list
 
 	>> /etc/apt/preferences printf "%s\n" \
+		' ' \
 		'Package: libplymouth5' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+		' ' \
+		'Package: dictionaries-common' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+		' ' \
+		'Package: bluez' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+		' ' \
+		'Package: pulseaudio-module-bluetooth' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+		' ' \
+		'Package: samba-common' \
 		'Pin: release *' \
 		'Pin-Priority: -1'
 } || {

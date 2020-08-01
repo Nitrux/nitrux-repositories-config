@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.2.5)  nitrux; urgency=medium
+
+  * Added block for dictionaries-common, samba-common, bluez and pulseaudio-module-bluetooth if OpenRC is present.
+
+ -- Luis Lavaire <llavaire01@nxos.org>  Sat, 01 Aug 2020 03:50:00 -0600
+
 nitrux-repository-settings (0.2.4)  nitrux; urgency=medium
 
   * Added block for libplymouth5 if OpenRC is present.

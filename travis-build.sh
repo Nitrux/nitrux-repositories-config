@@ -4,8 +4,9 @@ apt -qq update
 apt -qq -yy install equivs curl git
 
 ### Install Dependencies
-apt -qq -yy dist-upgrade
-apt -qq -yy install devscripts lintian build-essential automake autotools-dev equivs
+apt-get -qq --yes update
+apt-get -qq --yes dist-upgrade
+apt-get -qq --yes install devscripts lintian build-essential automake autotools-dev equivs
 mk-build-deps -i -t "apt-get --yes" -r
 
 ### Build Deb

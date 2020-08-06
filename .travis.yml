@@ -1,18 +1,16 @@
-
 dist: bionic
+
 script:
   - sudo ./travis-build.sh
 
 branches:
-  only:
-    - master
-    - development
+  - master
+  - development
 
 deploy:
-  - provider: script
-    script: wget -qO - https://raw.githubusercontent.com/Nitrux/nitrux-repository-util/master/upload-pkgs | sh -s *.deb
-    skip_cleanup: true
+  skip_cleanup: true
+  provider: script
+  script: wget -qO - https://raw.githubusercontent.com/Nitrux/nitrux-repository-util/master/upload-pkgs | sh -s *.deb
 
 notifications:
   email: false
-  

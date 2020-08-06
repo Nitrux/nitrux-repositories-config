@@ -1,3 +1,111 @@
+nitrux-repository-settings (0.2.9)  nitrux; urgency=medium
+
+  * Added block for plymouth-label and plymouth-themes and systemd packages if OpenRC is present.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 01 Aug 2020 17:39:00 -0600
+
+nitrux-repository-settings (0.2.8)  nitrux; urgency=medium
+
+  * Added block for snapd and systemd packages if OpenRC is present.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 01 Aug 2020 16:48:00 -0600
+
+nitrux-repository-settings (0.2.7)  nitrux; urgency=medium
+
+  * Added block for pulseaudio packages if OpenRC is present.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 01 Aug 2020 05:34:00 -0600
+
+nitrux-repository-settings (0.2.6)  nitrux; urgency=medium
+
+  * Added block for dictionaries-common, samba-common, bluez and pulseaudio-module-bluetooth if OpenRC is present.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 01 Aug 2020 04:53:00 -0600
+
+nitrux-repository-settings (0.2.5)  nitrux; urgency=medium
+
+  * Added block for dictionaries-common, samba-common, bluez and pulseaudio-module-bluetooth if OpenRC is present.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 01 Aug 2020 03:50:00 -0600
+
+nitrux-repository-settings (0.2.4)  nitrux; urgency=medium
+
+  * Added block for libplymouth5 if OpenRC is present.
+
+ -- Luis Lavaire <llavaire01@nxos.org>  Sun, 26 Jul 2020 16:56:00 -0600
+
+nitrux-repository-settings (0.2.3)  nitrux; urgency=medium
+
+  * Remove duplicate entries in /etc/apt/preferences, add block for libplymouth5 if OpenRC is present.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sun, 26 Jul 2020 04:57:00 -0500
+
+nitrux-repository-settings (0.2.2)  nitrux; urgency=medium
+
+  * Remove block of bionic packages (we don't use them anymore), also enable beowulf-updates.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 18 Jul 2020 01:54:00 -0500
+
+nitrux-repository-settings (0.2.2)  nitrux; urgency=medium
+
+  * Don't block installation of libqt5webkit5.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 17 Jul 2020 21:06:00 -0500
+
+nitrux-repository-settings (0.2.1)  nitrux; urgency=medium
+
+  * Use neon/focal, enable beowulf and disable bionic.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 17 Jul 2020 19:52:00 -0500
+
+nitrux-repository-settings (0.2.0)  nitrux; urgency=medium
+
+  * Block calamares version from devuan.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Mon, 13 Jul 2020 18:03:00 -0500
+
+nitrux-repository-settings (0.1.9)  nitrux; urgency=medium
+
+  * Block other pulseaudio bionic packages, enable bionic repo for non-OpenRC system.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sun, 12 Jul 2020 17:27:00 -0500
+
+nitrux-repository-settings (0.1.8)  nitrux; urgency=medium
+
+  * Block pulseaudio bionic packages.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 11 Jul 2020 11:41:00 -0500
+
+nitrux-repository-settings (0.1.7)  nitrux; urgency=medium
+
+  * Block pulseaudio bionic packages.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 11 Jul 2020 20:01:00 -0500
+
+nitrux-repository-settings (0.1.6)  nitrux; urgency=medium
+
+  * Only enable ceres.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 11 Jul 2020 15:05:00 -0500
+
+nitrux-repository-settings (0.1.5)  nitrux; urgency=medium
+
+  * Fix typo in repository name.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 11 Jul 2020 04:09:00 -0500
+
+nitrux-repository-settings (0.1.4)  nitrux; urgency=medium
+
+  * Enable more repositories if using OpenRC.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 11 Jul 2020 03:10:00 -0500
+
+nitrux-repository-settings (0.1.3)  nitrux; urgency=medium
+
+  * Check if system uses OpenRC and enable or disable the appropriate repositories.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 09 Jul 2020 21:26:00 -0500
+
 nitrux-repository-settings (0.1.2)  nitrux; urgency=medium
 
   * Add packages to preferences.
@@ -63,7 +171,7 @@ nitrux-repository-settings (0.0.2)  nitrux; urgency=medium
   * Create package.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Tue, 05 May 2020 23:29:00 -0500
- 
+
 nitrux-repository-settings (0.0.1)  nitrux; urgency=medium
 
   * Create package.

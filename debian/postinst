@@ -1,5 +1,101 @@
 #!/bin/bash
 
-apt -qq update
+test -f /sbin/openrc-init && {
+	sed -i \
+		-e 's+#deb http://pkgmaster.devuan.org/devuan beowulf main+deb http://pkgmaster.devuan.org/devuan beowulf main+g' \
+		-e 's+#deb http://pkgmaster.devuan.org/merged beowulf main+deb http://pkgmaster.devuan.org/merged beowulf main+g' \
+		-e 's+#deb http://pkgmaster.devuan.org/devuan beowulf-updates main+deb http://pkgmaster.devuan.org/devuan beowulf-updates main+g' \
+		-e 's+#deb http://pkgmaster.devuan.org/merged beowulf-updates main+deb http://pkgmaster.devuan.org/merged beowulf-updates main+g' \
+		/etc/apt/sources.list.d/devuan-repo.list
 
-exit 0
+	sed -i \
+		-e 's+#deb http://archive.ubuntu.com/ubuntu focal main restricted universe multiverse+deb http://archive.ubuntu.com/ubuntu focal main restricted universe multiverse+g' \
+		-e 's+#deb http://archive.ubuntu.com/ubuntu focal-security main restricted universe multiverse+deb http://archive.ubuntu.com/ubuntu focal-security main restricted universe multiverse+g' \
+		-e 's+#deb http://archive.ubuntu.com/ubuntu focal-updates main restricted universe multiverse+deb http://archive.ubuntu.com/ubuntu focal-updates main restricted universe multiverse+g' \
+		/etc/apt/sources.list.d/ubuntu-focal-repo.list
+
+	sed -i \
+		-e 's+deb http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse+#deb http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse+g' \
+		-e 's+deb http://archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse+#deb http://archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse+g' \
+		-e's+deb http://archive.ubuntu.com/ubuntu bionic-updates main restricted universe multiverse+#deb http://archive.ubuntu.com/ubuntu bionic-updates main restricted universe multiverse+g' \
+		/etc/apt/sources.list.d/ubuntu-bionic-repo.list
+
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: libplymouth5' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: dictionaries-common' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: bluez' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: pulseaudio-module-bluetooth' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: samba-common' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: libpulse-mainloop-glib0' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: libpulse0' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: libpulsedsp' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: pulseaudio' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: pulseaudio-utils' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: snapd' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: systemd' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: plymouth-label' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: plymouth-themes' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+} || {
+	sed -i \
+		-e 's+deb http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse+#deb http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse+g' \
+		-e 's+deb http://archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse+#deb http://archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse+g' \
+		-e's+deb http://archive.ubuntu.com/ubuntu bionic-updates main restricted universe multiverse+#deb http://archive.ubuntu.com/ubuntu bionic-updates main restricted universe multiverse+g' \
+		/etc/apt/sources.list.d/ubuntu-bionic-repo.list
+}
+
+apt -qq update

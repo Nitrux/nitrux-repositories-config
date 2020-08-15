@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.3.0)  nitrux; urgency=medium
+
+  * Added GPU PPA.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 15 Aug 2020 16:43:00 -0600
+
 nitrux-repository-settings (0.2.9)  nitrux; urgency=medium
 
   * Added block for plymouth-label and plymouth-themes and systemd packages if OpenRC is present.

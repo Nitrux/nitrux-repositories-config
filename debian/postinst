@@ -92,6 +92,16 @@ test -f /sbin/openrc-init && {
 		'Pin-Priority: -1'
 	>> /etc/apt/preferences printf "%s\n" \
 		'' \
+		'Package: cgroupfs-mount' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: ssl-cert' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
 		'Package: *' \
 		'Pin: release o=focal' \
 		'Pin-Priority: 600'

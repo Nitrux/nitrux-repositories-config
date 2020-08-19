@@ -90,6 +90,16 @@ test -f /sbin/openrc-init && {
 		'Package: plymouth-themes' \
 		'Pin: release *' \
 		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: *' \
+		'Pin: release o=focal' \
+		'Pin-Priority: 600'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: *' \
+		'Pin: origin archive.ubuntu.com' \
+		'Pin-Priority: 600'
 } || {
 	sed -i \
 		-e 's+deb http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse+#deb http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse+g' \

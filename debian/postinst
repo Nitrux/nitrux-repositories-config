@@ -102,6 +102,21 @@ test -f /sbin/openrc-init && {
 		'Pin-Priority: -1'
 	>> /etc/apt/preferences printf "%s\n" \
 		'' \
+		'Package: plasma-discover' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: plasma-discover-common' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
+		'Package: plasma-discover-backend-flatpak' \
+		'Pin: release *' \
+		'Pin-Priority: -1'
+	>> /etc/apt/preferences printf "%s\n" \
+		'' \
 		'Package: *' \
 		'Pin: release o=focal' \
 		'Pin-Priority: 600'

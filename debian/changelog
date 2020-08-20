@@ -1,6 +1,12 @@
+nitrux-repository-settings (0.3.4)  nitrux; urgency=medium
+
+  * Block apt from managing plasma-discover if OpenRC is present.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 19 Aug 2020 20:22:00 -0600
+
 nitrux-repository-settings (0.3.3)  nitrux; urgency=medium
 
-  * Block apt from managing cgroupfs-mount and ssl-cet if OpenRC is present.
+  * Block apt from managing cgroupfs-mount and ssl-cert if OpenRC is present.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Wed, 19 Aug 2020 18:19:00 -0600
 

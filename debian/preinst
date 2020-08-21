@@ -1,10 +1,11 @@
 #!/bin/bash
 
-OLD_SOURCES_FILES='
+OLD_FILES='
 /etc/apt/sources.list.d/ubuntu-repos.list
 /etc/apt/sources.list.d/neon-repos.list
 /etc/apt/sources.list.d/ubuntu-bionic-repo.list
+/etc/apt/preferences
 '
-rm $OLD_SOURCES_FILES
+rm $OLD_FILES
 
 exit 0

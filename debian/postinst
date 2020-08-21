@@ -74,9 +74,9 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
-		'Package: plasma-pa'
-		'Pin: release *'
-		'Pin-Priority: -1'
+		'Package: plasma-pa' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
 		'' \
 		'Package: pulseaudio' \
 		'Pin: release *' \

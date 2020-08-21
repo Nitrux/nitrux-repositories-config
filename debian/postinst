@@ -93,6 +93,7 @@ test -f /sbin/openrc-init && {
 		'Package: plymouth-theme-spinner' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
+		'' \
 		'Package: plymouth-label' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \

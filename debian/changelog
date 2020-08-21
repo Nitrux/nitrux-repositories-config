@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.3.6)  nitrux; urgency=medium
+
+  * Use blank apt/preferences and only add what we need.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 21 Aug 2020 15:34:00 -0600
+
 nitrux-repository-settings (0.3.5)  nitrux; urgency=medium
 
   * Don't enable devuan repos.

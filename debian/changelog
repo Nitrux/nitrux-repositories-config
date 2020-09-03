@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.4.1)  nitrux; urgency=medium
+
+  * Block libpam-runtime.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 03 Aug 2020 15:55:00 -0600
+ 
 nitrux-repository-settings (0.4.0)  nitrux; urgency=medium
 
   * Make sure that apt/preferences default values aren't altered.

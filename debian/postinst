@@ -51,6 +51,10 @@ test -f /sbin/openrc-init && {
 		'Pin: version 2.04-9' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: gvfs-common' \
+		'Pin: version 1.44.1-1ubuntu1' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: initramfs-tools' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \

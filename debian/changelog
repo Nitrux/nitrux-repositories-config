@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.5.0)  nitrux; urgency=medium
+
+  * Block gvfs-common from focal.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 04 Sep 2020 17:27:00 -0600
+
 nitrux-repository-settings (0.4.9)  nitrux; urgency=medium
 
   * Block libplymouth4 from changes unless specified.

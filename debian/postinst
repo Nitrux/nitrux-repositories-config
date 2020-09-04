@@ -92,7 +92,7 @@ test -f /sbin/openrc-init && {
 		'Pin-Priority: -1' \
 		'' \
 		'Package: libplymouth4' \
-		'Pin: version 0.9.4-3' \
+		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
 		'Package: plasma-discover' \

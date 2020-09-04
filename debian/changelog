@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.4.2)  nitrux; urgency=medium
+
+  * Block unattended-upgrades.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 04 Sep 2020 00:15:00 -0600
+
 nitrux-repository-settings (0.4.1)  nitrux; urgency=medium
 
   * Block libpam-runtime.

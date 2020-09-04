@@ -131,6 +131,10 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: unattended-upgrades' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: xterm' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \

@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.4.8)  nitrux; urgency=medium
+
+  * Block libplymouth4 from devuan.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 04 Sep 2020 15:32:00 -0600
+
 nitrux-repository-settings (0.4.7)  nitrux; urgency=medium
 
   * Block grub packages and libpolkit-elogind.

@@ -149,7 +149,7 @@ test -f /sbin/openrc-init && {
 		'Package: *' \
 		'Pin: origin archive.neon.kde.org' \
 		'Pin-Priority: 700' \
-		'' \
+		'' 
 } || {
 	>> /etc/apt/preferences printf "%s\n" \
 		'########################################' \

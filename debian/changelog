@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.4.5)  nitrux; urgency=medium
+
+  * Fix typo in postinst.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 04 Sep 2020 03:48:00 -0600
+
 nitrux-repository-settings (0.4.4)  nitrux; urgency=medium
 
   * Only set neon/user to rop priority.

@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.4.6)  nitrux; urgency=medium
+
+  * Block libsystemd0.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 04 Sep 2020 06:22:00 -0600
+
 nitrux-repository-settings (0.4.5)  nitrux; urgency=medium
 
   * Fix typo in postinst.

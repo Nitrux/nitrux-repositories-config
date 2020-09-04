@@ -43,6 +43,10 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: libgsl25' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: libpulse-mainloop-glib0' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \

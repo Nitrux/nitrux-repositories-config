@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.4.3)  nitrux; urgency=medium
+
+  * Block libgsl25, enable Devuan repos.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 04 Sep 2020 02:48:00 -0600
+
 nitrux-repository-settings (0.4.2)  nitrux; urgency=medium
 
   * Block unattended-upgrades.

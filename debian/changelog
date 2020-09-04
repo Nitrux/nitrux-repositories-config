@@ -1,4 +1,4 @@
-nitrux-repository-settings (0.4.6)  nitrux; urgency=medium
+nitrux-repository-settings (0.4.7)  nitrux; urgency=medium
 
   * Block grub packages and libpolkit-elogind.
 

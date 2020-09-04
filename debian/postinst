@@ -42,11 +42,6 @@ test -f /sbin/openrc-init && {
 		'Package: initramfs-tools-core' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
-		'' \
-		'Package: libgsl25' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
 		'Package: libpulse-mainloop-glib0' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
@@ -155,14 +150,6 @@ test -f /sbin/openrc-init && {
 		'Pin: origin archive.neon.kde.org' \
 		'Pin-Priority: 700' \
 		'' \
-		'Package: *' \
-		'Pin: release o=focal' \
-		'Pin-Priority: 600' \
-		'' \
-		'Package: *' \
-		'Pin: origin archive.ubuntu.com' \
-		'Pin-Priority: 600' \
-		'' 
 } || {
 	>> /etc/apt/preferences printf "%s\n" \
 		'########################################' \

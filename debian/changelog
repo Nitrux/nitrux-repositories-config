@@ -1,6 +1,6 @@
 nitrux-repository-settings (0.5.1)  nitrux; urgency=medium
 
-  * Remove block for sudo version no longer in repositories.
+  * Remove block for sudo version no longer in repositories, and remove gpu ppa source.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Fri, 25 Sep 2020 20:33:00 -0600
 

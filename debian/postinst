@@ -151,10 +151,6 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
-		'Package: sudo' \
-		'Pin: version 1.9.1-2' \
-		'Pin-Priority: -1' \
-		'' \
 		'Package: systemd' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
@@ -228,10 +224,6 @@ test -f /sbin/openrc-init && {
 		'' \
 		'Package: plymouth-theme-spinner' \
 		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: sudo' \
-		'Pin: version 1.9.1-2' \
 		'Pin-Priority: -1' \
 		'' \
 		'Package: ufw' \

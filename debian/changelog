@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.5.1)  nitrux; urgency=medium
+
+  * Remove block for sudo version no longer in repositories.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 25 Sep 2020 20:33:00 -0600
+
 nitrux-repository-settings (0.5.0)  nitrux; urgency=medium
 
   * Block gvfs-common from focal.

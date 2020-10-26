@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.5.2)  nitrux; urgency=medium
+
+  * Make sure to remove gpu ppa repository from sources.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sun, 25 Oct 2020 20:53:00 -0600
+
 nitrux-repository-settings (0.5.1)  nitrux; urgency=medium
 
   * Remove block for sudo version no longer in repositories, and remove gpu ppa source.

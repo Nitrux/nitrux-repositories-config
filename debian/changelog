@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.5.3)  nitrux; urgency=medium
+
+  * Use Devuan mirrors.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Mon, 26 Oct 2020 20:51:00 -0600
+
 nitrux-repository-settings (0.5.2)  nitrux; urgency=medium
 
   * Make sure to remove gpu ppa repository from sources.

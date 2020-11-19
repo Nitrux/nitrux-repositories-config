@@ -151,18 +151,6 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
-		'Package: plasma-discover' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: plasma-discover-common' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: plasma-discover-backend-flatpak' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
 		'Package: plasma-pa' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \

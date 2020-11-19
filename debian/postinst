@@ -99,6 +99,58 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: nvidia-driver-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: nvidia-compute-utils-390 ' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: nvidia-dkms-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: nvidia-kernel-common-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: nvidia-kernel-source-390 ' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: nvidia-utils-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-ifr1-390 ' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-gl-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-fbc1-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-encode-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-decode-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-compute-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-cfg1-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: plasma-discover' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
@@ -144,10 +196,14 @@ test -f /sbin/openrc-init && {
 		'Pin-Priority: -1' \
 		'' \
 		'Package: samba-common' \
-		'Pin: release *' \
+		'Pin: release *' \github.com/AppImageCrafters/
 		'Pin-Priority: -1' \
 		'' \
 		'Package: snapd' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: synaptic' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
@@ -164,6 +220,10 @@ test -f /sbin/openrc-init && {
 		'Pin-Priority: -1' \
 		'' \
 		'Package: unattended-upgrades' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: xserver-xorg-video-nvidia-390' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \

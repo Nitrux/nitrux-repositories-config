@@ -196,7 +196,7 @@ test -f /sbin/openrc-init && {
 		'Pin-Priority: -1' \
 		'' \
 		'Package: samba-common' \
-		'Pin: release *' \github.com/AppImageCrafters/
+		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
 		'Package: snapd' \

@@ -191,6 +191,10 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: software-properties-common' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: synaptic' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \

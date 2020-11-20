@@ -67,6 +67,46 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: libldb2' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libtalloc2' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: base-passwd' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-ifr1-390 ' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-gl-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-fbc1-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-encode-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-decode-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-compute-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libnvidia-cfg1-390' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: libsystemd0' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
@@ -99,6 +139,10 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: libpython3-stdlib' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: nvidia-driver-390' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
@@ -123,43 +167,11 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
-		'Package: libnvidia-ifr1-390 ' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: libnvidia-gl-390' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: libnvidia-fbc1-390' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: libnvidia-encode-390' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: libnvidia-decode-390' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: libnvidia-compute-390' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: libnvidia-cfg1-390' \
+		'Package: plasma-discover-backend-snap' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
 		'Package: plasma-pa' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: pulseaudio' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: pulseaudio-module-bluetooth' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
@@ -179,11 +191,43 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: pulseaudio' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: pulseaudio-module-bluetooth' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: pulseaudio-utils' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: python3' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: python3-minimal' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: python3-six' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: python3-talloc' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: python3-ldb' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: samba-common' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: samba-libs' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \

@@ -143,6 +143,14 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: media-types' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: mailcap' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: nvidia-driver-390' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \

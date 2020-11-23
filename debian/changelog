@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.5.8)  nitrux; urgency=medium
+
+  * Block packages.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sun, 22 Nov 2020 22:05:00 -0600
+
 nitrux-repository-settings (0.5.7)  nitrux; urgency=medium
 
   * Block Discover Snap backend, some python packages, reorganize list.

@@ -67,14 +67,6 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
-		'Package: libldb2' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: libtalloc2' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
 		'Package: base-passwd' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
@@ -136,10 +128,6 @@ test -f /sbin/openrc-init && {
 		'Pin-Priority: -1' \
 		'' \
 		'Package: libplymouth4' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: libpython3-stdlib' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
@@ -211,31 +199,7 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
-		'Package: python3' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: python3-minimal' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: python3-six' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: python3-talloc' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: python3-ldb' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
 		'Package: samba-common' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: samba-libs' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \

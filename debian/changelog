@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.6.0)  nitrux; urgency=medium
+
+  * Block qml-module-qmltermwidget.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 27 Nov 2020 05:06:00 -0600
+
 nitrux-repository-settings (0.5.9)  nitrux; urgency=medium
 
   * Unblock packages.

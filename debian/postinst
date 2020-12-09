@@ -32,23 +32,23 @@ test -f /sbin/openrc-init && {
 		'Pin-Priority: -1' \
 		'' \
 		'Package: grub-common' \
-		'Pin: version 2.04-10' \
+		'Pin: version 2.04-11' \
 		'Pin-Priority: -1' \
 		'' \
 		'Package: grub-efi-amd64' \
-		'Pin: version 2.04-10' \
+		'Pin: version 2.04-11' \
 		'Pin-Priority: -1' \
 		'' \
 		'Package: grub-efi-amd64-bin' \
-		'Pin: version 2.04-10' \
+		'Pin: version 2.04-11' \
 		'Pin-Priority: -1' \
 		'' \
 		'Package: grub-pc-bin' \
-		'Pin: version 2.04-10' \
+		'Pin: version 2.04-11' \
 		'Pin-Priority: -1' \
 		'' \
 		'Package: grub2-common' \
-		'Pin: version 2.04-10' \
+		'Pin: version 2.04-11' \
 		'Pin-Priority: -1' \
 		'' \
 		'Package: gvfs-common' \

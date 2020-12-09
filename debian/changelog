@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.6.1)  nitrux; urgency=medium
+
+  * Block grub packages.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 09 Dec 2020 02:41:00 -0600
+
 nitrux-repository-settings (0.6.0)  nitrux; urgency=medium
 
   * Block qml-module-qmltermwidget.

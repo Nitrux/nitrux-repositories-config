@@ -1,4 +1,4 @@
-nitrux-repository-settings (0.6.2)  nitrux; urgency=medium
+nitrux-repository-settings (0.6.3)  nitrux; urgency=medium
 
   * Block packagekit package.
 

@@ -171,6 +171,10 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: packagekit' \
+		'Pin: version 1.2.2-2+devuan1' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: plasma-pa' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \

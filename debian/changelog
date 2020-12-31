@@ -1,5 +1,11 @@
 nitrux-repository-settings (0.6.2)  nitrux; urgency=medium
 
+  * Block packagekit package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 31 Dec 2020 13:31:00 -0600
+
+nitrux-repository-settings (0.6.2)  nitrux; urgency=medium
+
   * Block libqt5webkit5 package.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Wed, 09 Dec 2020 03:13:00 -0600

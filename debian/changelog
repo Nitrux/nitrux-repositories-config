@@ -1,6 +1,6 @@
 nitrux-repository-settings (0.6.4)  nitrux; urgency=medium
 
-  * Block packagekit package.
+  * Block grub packages.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Thu, 31 Dec 2020 14:21:00 -0600
 

@@ -15,6 +15,10 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: base-passwd' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: bluez' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
@@ -67,8 +71,12 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
-		'Package: base-passwd' \
-		'Pin: release *' \
+		'Package: libfwupd2' \
+		'Pin: version 1.5.3-0xneon+20.04+focal+build3' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libfwupdplugin1' \
+		'Pin: version 1.5.3-0xneon+20.04+focal+build3' \
 		'Pin-Priority: -1' \
 		'' \
 		'Package: libnvidia-ifr1-390 ' \
@@ -133,14 +141,6 @@ test -f /sbin/openrc-init && {
 		'' \
 		'Package: libqt5webkit5' \
 		'Pin: version 5.212.0~alpha4-7' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: media-types' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: mailcap' \
-		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
 		'Package: nvidia-driver-390' \

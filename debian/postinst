@@ -35,6 +35,10 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: fwupd' \
+		'Pin: version 1.5.3-0xneon+20.04+focal+build3' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: grub-common' \
 		'Pin: version 2.04-12' \
 		'Pin-Priority: -1' \

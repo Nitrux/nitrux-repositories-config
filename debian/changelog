@@ -1,6 +1,6 @@
 nitrux-repository-settings (0.6.7)  nitrux; urgency=medium
 
-  * Block Sgrub packages.
+  * Block grub packages.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Thu, 26 Jan 2020 13:39:00 -0500
 

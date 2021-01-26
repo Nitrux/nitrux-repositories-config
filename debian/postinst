@@ -282,6 +282,7 @@ test -f /sbin/openrc-init && {
 		'#########################' \
 		'' \
 		'Update-Manager::Never-Include-Phased-Updates;' \
+		'APT::Get::Never-Include-Phased-Updates “true”;' \
 		'' 
 } || {
 	>> /etc/apt/preferences printf "%s\n" \

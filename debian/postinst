@@ -127,10 +127,6 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
-		'Package: libpam-runtime' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
 		'Package: libpam0g' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
@@ -140,6 +136,10 @@ test -f /sbin/openrc-init && {
 		'Pin-Priority: -1' \
 		'' \
 		'Package: libpam-modules-bin' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libpam-runtime' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \

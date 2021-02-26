@@ -1,20 +1,26 @@
+nitrux-repository-settings (0.6.8)  nitrux; urgency=medium
+
+  * Block libpam0g package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 26 Feb 2021 00:10:00 -0500
+
 nitrux-repository-settings (0.6.7)  nitrux; urgency=medium
 
   * Block grub packages.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Thu, 26 Jan 2020 13:39:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 26 Jan 2021 13:39:00 -0500
 
 nitrux-repository-settings (0.6.6)  nitrux; urgency=medium
 
   * Block Snap library, Pulseaudio from Ubuntu.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Thu, 21 Jan 2020 15:26:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 21 Jan 2021 15:26:00 -0500
 
 nitrux-repository-settings (0.6.5)  nitrux; urgency=medium
 
   * Block fwupd packages, ublock mailcap and media-types.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Thu, 21 Jan 2020 15:26:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 21 Jan 2021 15:26:00 -0500
 
 nitrux-repository-settings (0.6.4)  nitrux; urgency=medium
 

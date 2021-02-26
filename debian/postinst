@@ -135,6 +135,14 @@ test -f /sbin/openrc-init && {
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: libpam-modules' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: libpam-modules-bin' \
+		'Pin: release *' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: libpulse0' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \

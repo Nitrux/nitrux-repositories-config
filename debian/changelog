@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.7.0)  nitrux; urgency=medium
+
+  * Block libpaper1.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 27 Feb 2021 02:27:00 -0500
+
 nitrux-repository-settings (0.6.9)  nitrux; urgency=medium
 
   * Block more libpam packages.

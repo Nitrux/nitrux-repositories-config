@@ -1,4 +1,10 @@
-nitrux-repository-settings (0.7.1)  nitrux; urgency=medium
+nitrux-repository-settings (0.7.3)  nitrux; urgency=medium
+
+  * Fix typo in repo name.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 03 Mar 2021 10:06:00 -0500
+
+nitrux-repository-settings (0.7.2)  nitrux; urgency=medium
 
   * Add non-free suites to devuan repos.
 

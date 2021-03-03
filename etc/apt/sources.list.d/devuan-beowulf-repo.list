@@ -7,16 +7,16 @@
 # Devuan Repos Beowulf #
 ########################
 
-deb http://deb.devuan.org/devuan beowulf main
-deb http://deb.devuan.org/devuan beowulf-updates main
-deb http://deb.devuan.org/devuan beowulf-backports main
-deb http://deb.devuan.org/devuan beowulf-security main
+deb http://deb.devuan.org/devuan beowulf main non-free
+deb http://deb.devuan.org/devuan beowulf-updates main non-free
+deb http://deb.devuan.org/devuan beowulf-backports main non-free
+deb http://deb.devuan.org/devuan beowulf-security main non-free
 
 ###############################
 # Devuan Merged Repos Beowulf #
 ###############################
 
-deb http://deb.devuan.org/merged beowulf main
-deb http://deb.devuan.org/merged beowulf-updates main
-deb http://deb.devuan.org/devuan beowulf-backports main
-deb http://deb.devuan.org/devuan beowulf-security main
+deb http://deb.devuan.org/merged beowulf main non-free
+deb http://deb.devuan.org/merged beowulf-updates main non-free
+deb http://deb.devuan.org/devuan beowulf-backports main non-free
+deb http://deb.devuan.org/devuan beowulf-security main non-free

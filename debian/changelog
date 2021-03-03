@@ -1,5 +1,11 @@
 nitrux-repository-settings (0.7.1)  nitrux; urgency=medium
 
+  * Add non-free suites to devuan repos.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 03 Mar 2021 09:50:00 -0500
+
+nitrux-repository-settings (0.7.1)  nitrux; urgency=medium
+
   * Add beowulf-backports, and beowulf-security.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Wed, 03 Mar 2021 09:38:00 -0500

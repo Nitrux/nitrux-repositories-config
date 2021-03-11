@@ -3,8 +3,8 @@
 #   Your changes will be overwritten   #
 ########################################
 
-##################
-# KDE Neon Repos #
-##################
+################
+# Pine64 Repos #
+################
 
-# deb http://archive.neon.kde.org/user focal main
+# deb http://repo.plasma-mobile.org/pine64/ focal main

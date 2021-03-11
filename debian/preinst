@@ -1,12 +1,3 @@
 #!/bin/bash
 
-OLD_FILES='
-/etc/apt/sources.list.d/ubuntu-repos.list
-/etc/apt/sources.list.d/neon-repos.list
-/etc/apt/sources.list.d/ubuntu-bionic-repo.list
-/etc/apt/sources.list.d/gpu-ppa-repo.list
-/etc/apt/preferences
-'
-rm $OLD_FILES
-
 exit 0

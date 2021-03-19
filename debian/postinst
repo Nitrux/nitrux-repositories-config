@@ -146,4 +146,7 @@
 	'APT::Get::Never-Include-Phased-Updates “true”;' \
 	''
 
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
+	55751E5D
+
 apt -qq update

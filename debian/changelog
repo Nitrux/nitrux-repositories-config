@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.7.30)  nitrux; urgency=medium
+
+  * Bump version
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Mon, 22 Mar 2021 14:33:00 -0500
+
 nitrux-repository-settings (0.7.3)  nitrux; urgency=medium
 
   * Fix typo in repo name.

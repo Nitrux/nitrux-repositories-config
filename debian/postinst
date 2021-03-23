@@ -119,6 +119,10 @@
 	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: nitrux-repository-settings' \
+	'Pin: version 0.7.4' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: rng-tools' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \

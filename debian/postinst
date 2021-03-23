@@ -14,6 +14,10 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: base-passwd' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: calamares' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -62,24 +66,45 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: libpam0g' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libpam-modules' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libpam-modules-bin' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libpam-runtime' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: libpulsedsp' \
-	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libpulse-mainloop-glib0' \
-	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libkf5kirigami2-5' \
-	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libkf5newstuff5' \
-	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin: release a=focal,n=focal' \
+	'Pin-Priority: -1' \
+	'' \
+	'' \
+	'Package: libkf5newstuffcore5' \
+	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libkf5newstuff-data' \
-	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: rng-tools' \
@@ -87,19 +112,19 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: pulseaudio' \
-	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: pulseaudio-utils' \
-	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: pulseaudio-module-gsettings' \
-	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: pulseaudio-module-bluetooth' \
-	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: plymouth' \
@@ -115,11 +140,11 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: qml-module-org-kde-kirigami2' \
-	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: qml-module-org-kde-newstuff' \
-	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: xterm' \

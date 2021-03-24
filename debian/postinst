@@ -167,6 +167,22 @@ test -f /sbin/openrc-init && {
 		'Pin: version 5.212.0~alpha4-7' \
 		'Pin-Priority: -1' \
 		'' \
+		'Package: linux-headers-5.11.0-8.1-liquorix-amd64' \
+		'Pin: version 5.11-19ubuntu1~hirsute' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: linux-headers-liquorix-amd64' \
+		'Pin: version 5.11-19ubuntu1~hirsute' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: linux-image-5.11.0-8.1-liquorix-amd64' \
+		'Pin: version 5.11-19ubuntu1~hirsute' \
+		'Pin-Priority: -1' \
+		'' \
+		'Package: linux-image-liquorix-amd64' \
+		'Pin: version 5.11-19ubuntu1~hirsute' \
+		'Pin-Priority: -1' \
+		'' \
 		'Package: nvidia-driver-390' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \

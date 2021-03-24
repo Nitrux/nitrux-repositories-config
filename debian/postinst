@@ -110,7 +110,6 @@
 	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
-	'' \
 	'Package: libkf5newstuffcore5' \
 	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \

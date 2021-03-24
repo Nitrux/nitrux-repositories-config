@@ -1,4 +1,4 @@
-Source: nitrux-repository-settings
+Source: nitrux-repositories-config
 Section: misc
 Priority: optional
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
@@ -7,7 +7,8 @@ Standards-Version: 3.9.6
 Homepage: http://nxos.org
 
 
-Package: nitrux-repository-settings
+Package: nitrux-repositories-config
+Conflicts: nitrux-repository-settings
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Package to update APT sources in Nitrux.

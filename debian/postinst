@@ -150,10 +150,6 @@
 	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: nitrux-repository-settings' \
-	'Pin: version 0.7.5' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: nvidia-driver-390' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \

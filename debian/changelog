@@ -1,3 +1,9 @@
+nitrux-repository-settings (0.7.2.6)  nitrux; urgency=medium
+
+  * Update package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 24 Mar 2021 01:04:00 -0500
+
 nitrux-repository-settings (0.7.2.5)  nitrux; urgency=medium
 
   * Update package.

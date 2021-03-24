@@ -1,20 +1,26 @@
+nitrux-repository-settings (0.7.2.5)  nitrux; urgency=medium
+
+  * Update package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 23 Mar 2021 19:35:00 -0500
+
 nitrux-repository-settings (0.7.2.4)  nitrux; urgency=medium
 
   * Update package.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Thu, 18 Mar 2021 20:12:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 23 Mar 2021 16:01:00 -0500
 
 nitrux-repository-settings (0.7.2.3)  nitrux; urgency=medium
 
   * Fix package.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Thu, 18 Mar 2021 20:12:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 23 Mar 2021 15:23:00 -0500
 
 nitrux-repository-settings (0.7.2.2)  nitrux; urgency=medium
 
   * Fix package.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Thu, 18 Mar 2021 20:12:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 23 Mar 2021 04:18:00 -0500
 
 nitrux-repository-settings (0.7.2.1)  nitrux; urgency=medium
 

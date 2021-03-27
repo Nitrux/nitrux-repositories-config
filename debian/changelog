@@ -1,3 +1,9 @@
+nitrux-repositories-config (0.0.3+dfsg)  nitrux; urgency=medium
+
+  * Update package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 27 Mar 2021 03:46:00 -0500
+
 nitrux-repositories-config (0.0.2+dfsg)  nitrux; urgency=medium
 
   * Update package.

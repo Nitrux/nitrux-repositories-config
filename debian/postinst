@@ -138,22 +138,6 @@
 	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: libkf5kirigami2-5' \
-	'Pin: release a=focal,n=focal' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libkf5newstuff5' \
-	'Pin: release a=focal,n=focal' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libkf5newstuffcore5' \
-	'Pin: release a=focal,n=focal' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libkf5newstuff-data' \
-	'Pin: release a=focal,n=focal' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: nvidia-driver-390' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
@@ -226,16 +210,24 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: qml-module-org-kde-kirigami2' \
-	'Pin: release a=focal,n=focal' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: qml-module-org-kde-newstuff' \
-	'Pin: release a=focal,n=focal' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: xterm' \
 	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libkf5*' \
+	'Pin: version 5.80.0*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: qml-module-org-kde-*' \
+	'Pin: version 5.80.0*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: kross' \
+	'Pin: version 5.80.0*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libkwall*' \
+	'Pin: version 5.80.0*' \
 	'Pin-Priority: -1' \
 	'' \
 	'########################' \

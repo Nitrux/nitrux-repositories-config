@@ -215,19 +215,19 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libkf5*' \
-	'Pin: version 5.80.0*' \
+	'Pin: version 5.80.*' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: qml-module-org-kde-*' \
-	'Pin: version 5.80.0*' \
+	'Pin: version 5.80.*' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: kross' \
-	'Pin: version 5.80.0*' \
+	'Pin: version 5.80.*' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libkwall*' \
-	'Pin: version 5.80.0*' \
+	'Pin: version 5.80.*' \
 	'Pin-Priority: -1' \
 	'' \
 	'########################' \

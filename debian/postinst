@@ -257,6 +257,7 @@
 	'' 
 
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
-	55751E5D
+	55751E5D \
+	1118213C
 
 apt -qq update

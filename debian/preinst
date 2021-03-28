@@ -9,6 +9,7 @@ OLD_FILES='
     /etc/apt/sources.list.d/ubuntu-bionic-repo.list
     /etc/apt/sources.list.d/ubuntu-focal-repo.list
     /etc/apt/sources.list.d/ubuntu-repos.list
+    /etc/apt/sources.list.d/gpu-ppa-repo.list
 '
 rm -r $OLD_FILES || true
 
@@ -17,5 +18,6 @@ apt-key del \
     541922FB \
 	BB23C00C61FC752C \
 	3B4FE6ACC0B21F32 \
-	871920D1991BC93C > /dev/null
+	871920D1991BC93C \
+    1118213C > /dev/null
 

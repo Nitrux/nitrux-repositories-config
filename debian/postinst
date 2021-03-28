@@ -241,7 +241,7 @@
 	'Package: *' \
 	'Pin: origin archive.neon.kde.org' \
 	'Pin-Priority: 500' \
-	'' 
+	'' \
 	'Package: *' \
 	'Pin: origin ppa.launchpad.net' \
 	'Pin-Priority: 600' \

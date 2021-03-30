@@ -26,6 +26,10 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: dictionaries-common' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: fuse' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
@@ -95,6 +99,10 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libnvidia-cfg1-390' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libsnapd-glib1' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
@@ -170,6 +178,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: plasma-discover-backend-snap' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: pulseaudio' \
 	'Pin: release a=focal,n=focal' \
 	'Pin-Priority: -1' \
@@ -215,6 +227,10 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: systemd' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: unattended-upgrades' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \

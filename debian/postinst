@@ -198,6 +198,10 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: ssl-cert' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: snapd' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \

@@ -154,6 +154,10 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: nvidia-kernel-common' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: nvidia-kernel-source-390 ' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \

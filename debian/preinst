@@ -4,12 +4,10 @@ OLD_FILES='
     /etc/apt/preferences
     /etc/apt/sources.list.d/devuan-beowulf-repo.list
     /etc/apt/sources.list.d/devuan-ceres-repo.list
-    /etc/apt/sources.list.d/gpu-ppa-repo.list
     /etc/apt/sources.list.d/neon-repos.list
     /etc/apt/sources.list.d/ubuntu-bionic-repo.list
     /etc/apt/sources.list.d/ubuntu-focal-repo.list
     /etc/apt/sources.list.d/ubuntu-repos.list
-    /etc/apt/sources.list.d/gpu-ppa-repo.list
 '
 rm -r $OLD_FILES || true
 

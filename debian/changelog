@@ -1,3 +1,9 @@
+nitrux-repository-settings-arm64 (0.0.2)  nitrux; urgency=medium
+
+  * Create package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 01 Apr 2021 19:35:00 -0500
+
 nitrux-repository-settings-arm64 (0.0.1)  nitrux; urgency=medium
 
   * Create package.

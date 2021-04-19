@@ -252,6 +252,10 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: bluedevil' \
+	'Pin: version 4:5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: bluedevil' \
 	'Pin: version 4:5.21.4*' \
 	'Pin-Priority: -1' \
 	'' \
@@ -259,9 +263,24 @@
 	'Pin: version 4:5.80.*' \
 	'Pin-Priority: -1' \
 	'' \
-	'' \
 	'Package: breeze-*' \
 	'Pin: version 4:5.81.*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: breeze*' \
+	'Pin: version 4:5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: breeze-*' \
+	'Pin: version 4:5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: breeze-*' \
+	'Pin: version 5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: -breeze*' \
+	'Pin: version 5.21.3*' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: breeze*' \
@@ -289,6 +308,11 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: drkonqi' \
+	'Pin: version 5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'' \
+	'Package: drkonqi' \
 	'Pin: version 5.21.4*' \
 	'Pin-Priority: -1' \
 	'' \
@@ -306,6 +330,14 @@
 	'' \
 	'Package: k*' \
 	'Pin: version 4:5.81.*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: k*' \
+	'Pin: version 5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: k*' \
+	'Pin: version 4:5.21.3*' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: k*' \
@@ -349,6 +381,22 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: lib*' \
+	'Pin: version 4:5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: lib*' \
+	'Pin: version 5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: milou' \
+	'Pin: version 4:5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: oxygen-*' \
+	'Pin: version 4:5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: lib*' \
 	'Pin: version 4:5.21.4*' \
 	'Pin-Priority: -1' \
 	'' \
@@ -371,6 +419,22 @@
 	'' \
 	'Package: plasma-*' \
 	'Pin: version 5.81.*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: plasma-*' \
+	'Pin: version 5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: plasma-*' \
+	'Pin: version 4:5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: polkit-*' \
+	'Pin: version 4:5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: power*' \
+	'Pin: version 4:5.21.3*' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: plasma-*' \
@@ -403,6 +467,18 @@
 	'' \
 	'Package: qml-module-org-kde-*' \
 	'Pin: version 1:5.81.*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: qml-module-org-kde-*' \
+	'Pin: version 4:5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: systemsettings' \
+	'Pin: version 4:5.21.3*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: xdg-*' \
+	'Pin: version 5.21.3*' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: qml-module-org-kde-*' \

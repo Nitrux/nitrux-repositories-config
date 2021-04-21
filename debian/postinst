@@ -143,11 +143,11 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libpulsedsp' \
-	'Pin: release a=focal,n=focal' \
+	'Pin: origin archive.ubuntu.com' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libpulse-mainloop-glib0' \
-	'Pin: release a=focal,n=focal' \
+	'Pin: origin archive.ubuntu.com' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: nvidia-driver-390' \
@@ -195,19 +195,19 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: pulseaudio' \
-	'Pin: release a=focal,n=focal' \
+	'Pin: origin archive.ubuntu.com' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: pulseaudio-utils' \
-	'Pin: release a=focal,n=focal' \
+	'Pin: origin archive.ubuntu.com' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: pulseaudio-module-gsettings' \
-	'Pin: release a=focal,n=focal' \
+	'Pin: origin archive.ubuntu.com' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: pulseaudio-module-bluetooth' \
-	'Pin: release a=focal,n=focal' \
+	'Pin: origin archive.ubuntu.com' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: plymouth' \

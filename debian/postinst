@@ -19,7 +19,7 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: calamares' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin: origin archive.neon.kde.org' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: dash' \
@@ -72,6 +72,14 @@
 	'' \
 	'Package: libglu1-mesa' \
 	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libkpmcore10' \
+	'Pin: version 20.12.2-*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libkpmcore10' \
+	'Pin: version 20.12.3-*' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libnvidia-ifr1-390 ' \
@@ -176,6 +184,14 @@
 	'' \
 	'Package: rng-tools' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: partitionmanager' \
+	'Pin: version 20.12.2-*' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: partitionmanager' \
+	'Pin: version 20.12.3-*' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: plasma-discover-backend-snap' \

@@ -23,7 +23,7 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: dictionaries-common' \
-	'Pin: release *' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: fuse' \

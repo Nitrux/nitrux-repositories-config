@@ -3,8 +3,8 @@
 #   Your changes will be overwritten   #
 ########################################
 
-################
-# Nitrux Repos #
-################
+#########################
+# Debian Repos Unstable #
+#########################
 
-deb https://packagecloud.io/nitrux/repo/debian/ trixie main
+deb http://deb.debian.org/debian unstable main non-free contrib

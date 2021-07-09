@@ -11,27 +11,7 @@
 		'#  Packages Priority #' \
 		'######################' \
 		'' \
-		'Package: base-files' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
 		'Package: dash' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: initramfs-tools' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: initramfs-tools-bin' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: initramfs-tools-core' \
-		'Pin: release *' \
-		'Pin-Priority: -1' \
-		'' \
-		'Package: ufw' \
 		'Pin: release *' \
 		'Pin-Priority: -1' \
 		'' \

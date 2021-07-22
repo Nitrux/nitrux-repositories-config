@@ -1,4 +1,4 @@
-Source: nitrux-repository-settings-arm64
+Source: nitrux-repositories-config-arm64
 Section: misc
 Priority: optional
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
@@ -7,8 +7,9 @@ Standards-Version: 3.9.6
 Homepage: http://nxos.org
 
 
-Package: nitrux-repository-settings-arm64
+Package: nitrux-repositories-config-arm64
 Architecture: all
+Conflicts: nitrux-repositories-config
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Package to update APT sources in Nitrux.
  This package will update APT sources.

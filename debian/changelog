@@ -1,3 +1,9 @@
+nitrux-repositories-config-arm64 (0.0.7)  nitrux; urgency=medium
+
+  * Update package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 22 Jul 2021 16:32:00 -0500
+
 nitrux-repositories-config-arm64 (0.0.6)  nitrux; urgency=medium
 
   * Fix typos in postinst.

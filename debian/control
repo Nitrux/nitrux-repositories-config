@@ -10,7 +10,7 @@ Homepage: http://nxos.org
 Package: nitrux-repositories-config-arm64
 Architecture: all
 Conflicts: nitrux-repositories-config
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, curl
 Description: Package to update APT sources in Nitrux.
  This package will update APT sources.
 

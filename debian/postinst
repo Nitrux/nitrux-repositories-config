@@ -116,6 +116,7 @@
 curl -L https://packagecloud.io/nitrux/repo/gpgkey | apt-key add
 
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
+	648ACFD622F3D138 \
 	55751E5D > /dev/null
 
 apt -qq update

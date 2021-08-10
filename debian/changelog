@@ -1,3 +1,9 @@
+nitrux-repositories-config (0.2.7+dfsg)  nitrux; urgency=medium
+
+  * Remove unecessary lines from preferences.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 10 Aug 2021 13:11:00 -0500
+
 nitrux-repositories-config (0.2.6+dfsg)  nitrux; urgency=medium
 
   * Use new repository.

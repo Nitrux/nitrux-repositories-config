@@ -246,6 +246,9 @@
 	'#  Neon Package Priority #' \
 	'##########################' \
 	'' \
+	'Package: fwupd' \
+	'Pin: origin archive.neon.kde.org' \
+	'Pin-Priority: -1' \
 	'' \
 	'##########################' \
 	'#  Maui Package Priority #' \
@@ -258,10 +261,6 @@
 	'########################' \
 	'#  Repository Priority #' \
 	'########################' \
-	'' \
-	'Package: *' \
-	'Pin: release o=user' \
-	'Pin-Priority: 500' \
 	'' \
 	'Package: *' \
 	'Pin: origin archive.neon.kde.org' \

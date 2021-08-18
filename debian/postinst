@@ -162,6 +162,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: network-manager' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: nvidia-driver-390' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \

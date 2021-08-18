@@ -78,6 +78,10 @@
 	'Pin: release o=Ubuntu,a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: libnm0' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: libnvidia-ifr1-390 ' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \

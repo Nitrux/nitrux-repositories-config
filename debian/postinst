@@ -142,6 +142,14 @@
 	'Pin: origin archive.ubuntu.com' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: libqt5webengine5' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libqt5webenginecore5' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: libqt5webengine-data' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \

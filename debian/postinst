@@ -70,12 +70,20 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: kio-gdrive' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: libboost-python1.71.0' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libglu1-mesa' \
 	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libkpimgapicore5abi1' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libnm0' \

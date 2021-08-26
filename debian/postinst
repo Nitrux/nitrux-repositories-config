@@ -39,7 +39,7 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: gir1.2-polkit-1.0' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin: origin deb.debian.org' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: grub-common' \
@@ -167,11 +167,11 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libpolkit-agent-1-0' \
-	'Pin: release *' \
+	'Pin: origin deb.debian.org' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libpolkit-gobject-1-0' \
-	'Pin: release *' \
+	'Pin: origin deb.debian.org' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libpulsedsp' \

@@ -90,6 +90,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: gutenprint-locales' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: libboost-python1.71.0' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -104,6 +108,14 @@
 	'' \
 	'Package: libglu1-mesa' \
 	'Pin: release o=Ubuntu,a=focal,n=focal' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libgutenprint9' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libgutenprint-common' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libkf5pulseaudioqt2' \
@@ -296,6 +308,11 @@
 	'' \
 	'Package: plymouth-theme-spinner' \
 	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+
+	'Package: printer-driver-gutenprint' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: ssl-cert' \

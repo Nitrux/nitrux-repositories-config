@@ -18,6 +18,10 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: calamares' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: dash' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \

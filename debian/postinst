@@ -122,6 +122,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: libkf5dbusaddons-bin' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: libkf5xmlgui5' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \

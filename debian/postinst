@@ -78,15 +78,7 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: kio-gdrive' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: kio-extras' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: kio-extras-data' \
+	'Package: kio-*' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
@@ -206,23 +198,7 @@
 	'Pin: origin archive.ubuntu.com' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: libqt5webengine5' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libqt5webenginecore5' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libqt5webengine-data' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libqt5webenginewidgets5' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libqt5webkit5' \
+	'Package: libqt5*' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \

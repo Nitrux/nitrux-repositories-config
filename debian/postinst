@@ -274,6 +274,10 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: plymouth-x11' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: printer-driver-gutenprint' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \

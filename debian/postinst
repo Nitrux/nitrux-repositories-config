@@ -282,6 +282,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: sbinsigntool' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: ssl-cert' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \

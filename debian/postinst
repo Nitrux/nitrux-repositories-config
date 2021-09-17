@@ -90,6 +90,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: ktexteditor-data' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: gutenprint-locales' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -272,6 +276,10 @@
 	'' \
 	'Package: pulseaudio-module-bluetooth' \
 	'Pin: origin archive.ubuntu.com' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: plasma-*' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: plymouth' \

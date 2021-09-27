@@ -42,8 +42,16 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: gir1.2-freedesktop' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: gir1.2-glib-2.0' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: gir1.2-polkit-1.0' \
-	'Pin: origin deb.debian.org' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: grub-common' \

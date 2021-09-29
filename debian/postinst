@@ -6,24 +6,16 @@
 	'#   Your changes will be overwritten   #' \
 	'########################################' \
 	'' \
-	'######################' \
-	'#  Packages Priority #' \
-	'######################' \
+	'############################' \
+	'#  Debian Package Priority #' \
+	'############################' \
 	'' \
 	'Package: base-files' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: base-passwd' \
-	'Pin: release *' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: calamares' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: dash' \
-	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: debianutils' \
@@ -32,14 +24,6 @@
 	'' \
 	'Package: dictionaries-common' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: fwupd' \
-	'Pin: origin archive.neon.kde.org' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: fuse' \
-	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: gir1.2-freedesktop' \
@@ -76,14 +60,6 @@
 	'' \
 	'Package: grub2-common' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: k3b' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: k3b-i18n' \
-	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: kio' \
@@ -126,10 +102,6 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: libglu1-mesa' \
-	'Pin: release o=Ubuntu,a=focal,n=focal' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: libgirepository-1.0-1' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -142,7 +114,23 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: libkate1' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libkcolorpicker0' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: libkf5*' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libkimageannotator0' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libkimageannotator-common' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
@@ -158,12 +146,96 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: libkuserfeedbackcore1' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: libkwalletbackend5-5' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libnm0' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libpolkit-agent-1-0' \
+	'Pin: origin deb.debian.org' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libpolkit-gobject-1-0' \
+	'Pin: origin deb.debian.org' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libqt5*' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: network-manager' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: rng-tools' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: plasma-*' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: plymouth' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: plymouth-label' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: plymouth-x11' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: printer-driver-gutenprint' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: sbinsigntool' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: qml-module-qmltermwidget' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: qml-module-qtwebengine' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: qml-module-org-kde-*' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'###########################' \
+	'#  Other Package Priority #' \
+	'###########################' \
+	'' \
+	'Package: base-passwd' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: dash' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: fuse' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: k3b' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: k3b-i18n' \
+	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libnvidia-ifr1-390 ' \
@@ -218,30 +290,6 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: libpolkit-agent-1-0' \
-	'Pin: origin deb.debian.org' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libpolkit-gobject-1-0' \
-	'Pin: origin deb.debian.org' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libpulsedsp' \
-	'Pin: origin archive.ubuntu.com' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libpulse-mainloop-glib0' \
-	'Pin: origin archive.ubuntu.com' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libqt5*' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: network-manager' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: nvidia-driver-390' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
@@ -270,10 +318,6 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: rng-tools' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: plasma-discover-backend-snap' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
@@ -282,48 +326,8 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: pulseaudio' \
-	'Pin: origin archive.ubuntu.com' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: pulseaudio-utils' \
-	'Pin: origin archive.ubuntu.com' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: pulseaudio-module-gsettings' \
-	'Pin: origin archive.ubuntu.com' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: pulseaudio-module-bluetooth' \
-	'Pin: origin archive.ubuntu.com' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: plasma-*' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: plymouth' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: plymouth-label' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: plymouth-theme-spinner' \
 	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: plymouth-x11' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: printer-driver-gutenprint' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: sbinsigntool' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: ssl-cert' \
@@ -350,18 +354,6 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: qml-module-qmltermwidget' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: qml-module-qtwebengine' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: qml-module-org-kde-*' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: xterm' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
@@ -370,16 +362,20 @@
 	'#  Neon Package Priority #' \
 	'##########################' \
 	'' \
+	'Package: base-files' \
+	'Pin: origin archive.neon.kde.org' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: fwupd' \
 	'Pin: origin archive.neon.kde.org' \
 	'Pin-Priority: -1' \
 	'' \
-	'##########################' \
-	'#  Maui Package Priority #' \
-	'##########################' \
+	'#########################' \
+	'#  PPA Package Priority #' \
+	'#########################' \
 	'' \
-	'Package: clip' \
-	'Pin: version 1.2.0' \
+	'Package: libglu1-mesa' \
+	'Pin: release o=Ubuntu,a=focal,n=focal' \
 	'Pin-Priority: -1' \
 	'' \
 	'########################' \

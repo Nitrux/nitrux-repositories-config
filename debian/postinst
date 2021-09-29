@@ -62,6 +62,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: gutenprint-locales' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: kio' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -83,10 +87,6 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: ktexteditor-data' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: gutenprint-locales' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
@@ -146,14 +146,6 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: libkuserfeedbackcore1' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libkwalletbackend5-5' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: libnm0' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -170,11 +162,19 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: libkuserfeedbackcore1' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libkwalletbackend5-5' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: network-manager' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: rng-tools' \
+	'Package: nvidia-kernel-common' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
@@ -198,10 +198,6 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: sbinsigntool' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: qml-module-qmltermwidget' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -211,6 +207,14 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: qml-module-org-kde-*' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: rng-tools' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: sbinsigntool' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
@@ -266,14 +270,6 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: libsnapd-glib1' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libsystemd0' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: libpam0g' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
@@ -287,6 +283,14 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libpam-runtime' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libsnapd-glib1' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libsystemd0' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
@@ -304,10 +308,6 @@
 	'' \
 	'Package: nvidia-kernel-common-390' \
 	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: nvidia-kernel-common' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: nvidia-kernel-source-390 ' \
@@ -330,15 +330,15 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: ssl-cert' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: snapd' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: software-properties-common' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: ssl-cert' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
@@ -373,10 +373,6 @@
 	'#########################' \
 	'#  PPA Package Priority #' \
 	'#########################' \
-	'' \
-	'Package: libglu1-mesa' \
-	'Pin: release o=Ubuntu,a=focal,n=focal' \
-	'Pin-Priority: -1' \
 	'' \
 	'########################' \
 	'#  Repository Priority #' \

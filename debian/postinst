@@ -222,6 +222,10 @@
 	'#  Other Package Priority #' \
 	'###########################' \
 	'' \
+	'Package: base-files' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: base-passwd' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \

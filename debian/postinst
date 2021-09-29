@@ -159,11 +159,11 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libpolkit-agent-1-0' \
-	'Pin: origin deb.debian.org' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libpolkit-gobject-1-0' \
-	'Pin: origin deb.debian.org' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libqt5*' \

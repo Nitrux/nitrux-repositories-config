@@ -1,5 +1,11 @@
 nitrux-repositories-config (0.6.0+dfsg)  nitrux; urgency=medium
 
+  * Unblock pkacage.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 29 Sep 2021 19:53:00 -0500
+
+nitrux-repositories-config (0.6.0+dfsg)  nitrux; urgency=medium
+
   * Block pkacage.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Wed, 29 Sep 2021 18:37:00 -0500

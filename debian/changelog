@@ -1,3 +1,9 @@
+nitrux-repositories-config (0.6.4+dfsg)  nitrux; urgency=medium
+
+  * Fix typo in script.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 14 Oct 2021 18:24:00 -0500
+
 nitrux-repositories-config (0.6.3+dfsg)  nitrux; urgency=medium
 
   * Block pkacages.

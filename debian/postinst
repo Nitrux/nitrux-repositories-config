@@ -82,6 +82,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: kdeplasma-addons-data'
+	'Pin: release o=Debian,a=unstable,n=sid'
+	'Pin-Priority: -1'
+	'' \
 	'Package: kinit' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -109,6 +113,10 @@
 	'Package: ktexteditor-data' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
+	'' \
+	'Package: kwin-addons'
+	'Pin: release o=Debian,a=unstable,n=sid'
+	'Pin-Priority: -1'
 	'' \
 	'Package: libboost-python1.71.0' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
@@ -161,6 +169,10 @@
 	'Package: libkpimgapidrive5' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
+	'' \
+	'Package: liblayershellqtinterface5'
+	'Pin: release o=Debian,a=unstable,n=sid'
+	'Pin-Priority: -1'
 	'' \
 	'Package: libnm0' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
@@ -233,6 +245,10 @@
 	'Package: sbinsigntool' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
+	'' \
+	'Package: xdg-desktop-portal-kde'
+	'Pin: release o=Debian,a=unstable,n=sid'
+	'Pin-Priority: -1'
 	'' \
 	'###########################' \
 	'#  Other Package Priority #' \

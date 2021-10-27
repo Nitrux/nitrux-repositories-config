@@ -1,3 +1,9 @@
+nitrux-repositories-config (0.6.7+dfsg)  nitrux; urgency=medium
+
+  * Block pkacages.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 26 Oct 2021 21:57:00 -0500
+
 nitrux-repositories-config (0.6.6+dfsg)  nitrux; urgency=medium
 
   * Block pkacages.

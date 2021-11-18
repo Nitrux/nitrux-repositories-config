@@ -414,6 +414,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: python3-gi' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: qml-module-qmltermwidget' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -629,5 +633,6 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
 	1118213C
 
 curl -L https://packagecloud.io/nitrux/repo/gpgkey | apt-key add
+curl -L https://packagecloud.io/nitrux/compat/gpgkey | apt-key add
 
 apt -qq update

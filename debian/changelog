@@ -1,30 +1,36 @@
+nitrux-repositories-config (0.7.0+dfsg)  nitrux; urgency=medium
+
+  * Add repository.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 17 Nov 2021 22:01:00 -0500
+
 nitrux-repositories-config (0.6.9+dfsg)  nitrux; urgency=medium
 
-  * Block pkacages.
+  * Block packages.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Wed, 09 Nov 2021 14:54:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 17 Nov 2021 21:51:00 -0500
 
 nitrux-repositories-config (0.6.8+dfsg)  nitrux; urgency=medium
 
-  * Block pkacages.
+  * Block packages.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Wed, 09 Nov 2021 14:54:00 -0500
 
 nitrux-repositories-config (0.6.7+dfsg)  nitrux; urgency=medium
 
-  * Block pkacages.
+  * Block packages.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Tue, 26 Oct 2021 21:57:00 -0500
 
 nitrux-repositories-config (0.6.6+dfsg)  nitrux; urgency=medium
 
-  * Block pkacages.
+  * Block packages.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Sat, 16 Oct 2021 11:17:00 -0500
 
 nitrux-repositories-config (0.6.5+dfsg)  nitrux; urgency=medium
 
-  * Block pkacages.
+  * Block packages.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Sat, 16 Oct 2021 11:10:00 -0500
 
@@ -36,7 +42,7 @@ nitrux-repositories-config (0.6.4+dfsg)  nitrux; urgency=medium
 
 nitrux-repositories-config (0.6.3+dfsg)  nitrux; urgency=medium
 
-  * Block pkacages.
+  * Block packages.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Thu, 14 Oct 2021 17:55:00 -0500
 

@@ -8,3 +8,5 @@
 ################
 
 deb https://packagecloud.io/nitrux/repo/debian/ trixie main
+deb https://packagecloud.io/nitrux/compat/debian/ trixie main
+

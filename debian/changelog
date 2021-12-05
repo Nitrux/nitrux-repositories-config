@@ -1,8 +1,8 @@
-nitrux-repositories-config (0.7.0+dfsg)  nitrux; urgency=medium
+nitrux-repositories-config (0.7.1+dfsg)  nitrux; urgency=medium
 
   * Add repository.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Wed, 17 Nov 2021 22:01:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Sun, 05 Dec 2021 07:40:00 -0500
 
 nitrux-repositories-config (0.7.0+dfsg)  nitrux; urgency=medium
 

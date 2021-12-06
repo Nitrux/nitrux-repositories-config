@@ -46,15 +46,15 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: drkonqi' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: dpkg' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: dpkg-dev' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: drkonqi' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \

@@ -246,10 +246,6 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: libgirepository-1.0-1' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: libgutenprint9' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -431,10 +427,6 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: printer-driver-gutenprint' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: python3-gi' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \

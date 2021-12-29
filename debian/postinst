@@ -394,6 +394,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: openssh-client' \
+	'Pin: version 1:8.7p1-3' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: plasma-*' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \

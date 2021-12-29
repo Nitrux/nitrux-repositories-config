@@ -1,3 +1,9 @@
+nitrux-repositories-config (0.7.4+dfsg)  nitrux; urgency=medium
+
+  * Unblock packages.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 29 Dec 2021 04:33:00 -0500
+
 nitrux-repositories-config (0.7.3+dfsg)  nitrux; urgency=medium
 
   * Unblock packages.

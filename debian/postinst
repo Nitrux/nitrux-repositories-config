@@ -382,6 +382,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: mokutil' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: network-manager' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -459,6 +463,10 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: rng-tools' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: shim-signed' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \

@@ -490,7 +490,7 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: dash' \
+	'Package: bash' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \

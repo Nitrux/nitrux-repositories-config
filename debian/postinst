@@ -470,7 +470,7 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: sbinsigntool' \
+	'Package: sbsigntool' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \

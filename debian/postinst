@@ -378,10 +378,6 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: nvidia-kernel-common' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: oxygen-*' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -470,22 +466,6 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: xserver-common' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: xserver-xorg-core' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: xserver-xorg-input-*' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: xserver-xorg-video-*' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
 	'###########################' \
 	'#  Other Package Priority #' \
 	'###########################' \
@@ -503,34 +483,6 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: k3b-i18n' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libnvidia-ifr1-390 ' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libnvidia-gl-390' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libnvidia-fbc1-390' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libnvidia-encode-390' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libnvidia-decode-390' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libnvidia-compute-390' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libnvidia-cfg1-390' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
@@ -555,30 +507,6 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libsystemd0' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: nvidia-driver-390' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: nvidia-compute-utils-390 ' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: nvidia-dkms-390' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: nvidia-kernel-common-390' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: nvidia-kernel-source-390 ' \
-	'Pin: release *' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: nvidia-utils-390' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \

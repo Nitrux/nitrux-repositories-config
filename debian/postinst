@@ -582,6 +582,14 @@
 	'#  PPA Package Priority #' \
 	'#########################' \
 	'' \
+	'Package: libvulkan1' \
+	'Pin: origin ppa.launchpad.net' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libvulkan-dev' \
+	'Pin: origin ppa.launchpad.net' \
+	'Pin-Priority: -1' \
+	'' \
 	'########################' \
 	'#  Repository Priority #' \
 	'########################' \

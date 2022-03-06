@@ -34,14 +34,6 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: cmake' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: cmake-data' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: debianutils' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -600,7 +592,7 @@
 	'' \
 	'Package: *' \
 	'Pin: origin archive.neon.kde.org' \
-	'Pin-Priority: 500' \
+	'Pin-Priority: 600' \
 	'' \
 	'Package: *' \
 	'Pin: origin ppa.launchpad.net' \

@@ -358,10 +358,6 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: libwacom-*' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: libweather-*' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \

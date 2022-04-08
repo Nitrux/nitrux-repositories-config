@@ -482,7 +482,7 @@
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: fuse' \
+	'Package: fuse3' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \
@@ -491,6 +491,10 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: k3b-i18n' \
+	'Pin: release *' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libfuse3-3' \
 	'Pin: release *' \
 	'Pin-Priority: -1' \
 	'' \

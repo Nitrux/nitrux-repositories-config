@@ -7,4 +7,4 @@
 # Proprietary GPU PPA #
 #######################
 
-deb http://ppa.launchpad.net/graphics-drivers/ppa/ubuntu focal main
+deb [arch=amd64 signed-by=/usr/share/keyrings/gpu-ppa.gpg] http://ppa.launchpad.net/graphics-drivers/ppa/ubuntu focal main

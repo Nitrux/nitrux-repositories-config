@@ -1,3 +1,9 @@
+nitrux-repositories-config (0.9.5+dfsg)  nitrux; urgency=medium
+
+  * Fix apt-key warning.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Mon, 18 Apr 2022 13:11:00 -0500
+
 nitrux-repositories-config (0.9.4+dfsg)  nitrux; urgency=medium
 
   * block packages.

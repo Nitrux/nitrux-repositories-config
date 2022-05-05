@@ -1,3 +1,9 @@
+nitrux-repositories-config (0.9.8+dfsg)  nitrux; urgency=medium
+
+  * Delete keys and create them again.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 04 May 2022 19:38:00 -0500
+
 nitrux-repositories-config (0.9.7+dfsg)  nitrux; urgency=medium
 
   * Block package.

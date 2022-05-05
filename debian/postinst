@@ -643,6 +643,12 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
 curl -L https://packagecloud.io/nitrux/repo/gpgkey | apt-key add
 curl -L https://packagecloud.io/nitrux/compat/gpgkey | apt-key add
 
+rm -r \
+	/usr/share/keyrings/nitrux-repo.gpg \
+	/usr/share/keyrings/nitrux-compat.gpg \
+	/usr/share/keyrings/neon-archive.gpg \
+	/usr/share/keyrings/gpu-ppa.gpg
+
 apt-key export 86A634D7 | gpg --dearmour -o /usr/share/keyrings/nitrux-repo.gpg
 apt-key export 712260DE | gpg --dearmour -o /usr/share/keyrings/nitrux-compat.gpg
 apt-key export 55751E5D | gpg --dearmour -o /usr/share/keyrings/neon-archive.gpg

@@ -1,3 +1,9 @@
+nitrux-repositories-config (0.9.9+dfsg)  nitrux; urgency=medium
+
+  * Use jammy for gpu ppa.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 18 May 2022 20:42:00 -0500
+
 nitrux-repositories-config (0.9.8+dfsg)  nitrux; urgency=medium
 
   * Delete keys and create them again.

@@ -1,3 +1,9 @@
+nitrux-repositories-config (1.0.0+dfsg)  nitrux; urgency=medium
+
+  * Block package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 01 Jun 2022 17:05:00 -0500
+
 nitrux-repositories-config (0.9.9+dfsg)  nitrux; urgency=medium
 
   * Use jammy for gpu ppa.

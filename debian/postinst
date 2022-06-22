@@ -655,11 +655,13 @@ rm -r \
 	/usr/share/keyrings/nitrux-repo.gpg \
 	/usr/share/keyrings/nitrux-compat.gpg \
 	/usr/share/keyrings/neon-archive.gpg \
-	/usr/share/keyrings/gpu-ppa.gpg
+	/usr/share/keyrings/gpu-ppa.gpg \
+	/usr/share/keyrings/xanmod-repo.gpg \
 
 apt-key export 86A634D7 | gpg --dearmour -o /usr/share/keyrings/nitrux-repo.gpg
 apt-key export 712260DE | gpg --dearmour -o /usr/share/keyrings/nitrux-compat.gpg
 apt-key export 55751E5D | gpg --dearmour -o /usr/share/keyrings/neon-archive.gpg
 apt-key export 1118213C | gpg --dearmour -o /usr/share/keyrings/gpu-ppa.gpg
+apt-key export E734E623 | gpg --dearmour -o /usr/share/keyrings/xanmod-repo.gpg
 
 apt -qq update

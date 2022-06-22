@@ -1,3 +1,9 @@
+nitrux-repositories-config (1.0.4+dfsg)  nitrux; urgency=medium
+
+  * Unblock package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 22 Jun 2022 16:04:00 -0500
+
 nitrux-repositories-config (1.0.3+dfsg)  nitrux; urgency=medium
 
   * Add xanmod repository.

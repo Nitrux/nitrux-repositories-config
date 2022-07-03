@@ -114,6 +114,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: gstreamer1.0-pipewire' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: 700' \
+	'' \
 	'Package: kactivitymanagerd' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -310,6 +314,14 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: libkuserfeedbackcore1' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libkwalletbackend5-5' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: liblayershellqtinterface5' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -325,6 +337,14 @@
 	'Package: libpam-elogind' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
+	'' \
+	'Package: libpipewire-*' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: 700' \
+	'' \
+	'Package: libspa-*' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: 700' \
 	'' \
 	'Package: libplasma-*' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
@@ -351,14 +371,6 @@
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libqt5*' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libkuserfeedbackcore1' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: -1' \
-	'' \
-	'Package: libkwalletbackend5-5' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
@@ -396,6 +408,14 @@
 	'' \
 	'Package: openssh-client' \
 	'Pin: version 1:8.7p1-3' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: pipewire' \
+	'Pin: origin archive.neon.kde.org' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: pipewire-*' \
+	'Pin: origin archive.neon.kde.org' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: plasma-*' \
@@ -594,7 +614,27 @@
 	'Pin: origin archive.neon.kde.org' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: gstreamer1.0-pipewire' \
+	'Pin: origin archive.neon.kde.org' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: latte-dock' \
+	'Pin: origin archive.neon.kde.org' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libpipewire-*' \
+	'Pin: origin archive.neon.kde.org' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libspa-*' \
+	'Pin: origin archive.neon.kde.org' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: pipewire' \
+	'Pin: origin archive.neon.kde.org' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: pipewire-*' \
 	'Pin: origin archive.neon.kde.org' \
 	'Pin-Priority: -1' \
 	'' \

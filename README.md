@@ -1,4 +1,4 @@
-# Nitrux Repository Settings [![Build Status](https://app.travis-ci.com/Nitrux/nitrux-repositories-config.svg?branch=master)](https://app.travis-ci.com/Nitrux/nitrux-repositories-config)
+# Nitrux Repository Settings
 
 Custom settings for APT.
 

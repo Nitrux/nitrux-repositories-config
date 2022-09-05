@@ -390,8 +390,8 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: libpoppler-cpp0v5-*' \
-	'Pin: origin archive.neon.kde.org' \
+	'Package: libpoppler-cpp0v5' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libpowerdevil*' \

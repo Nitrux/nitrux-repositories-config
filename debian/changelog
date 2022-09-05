@@ -1,3 +1,9 @@
+nitrux-repositories-config (1.1.0+dfsg)  nitrux; urgency=medium
+
+  * Block packages.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Mon, 05 Sep 2022 01:30:00 -0500
+
 nitrux-repositories-config (1.0.9+dfsg)  nitrux; urgency=medium
 
   * Block packages.

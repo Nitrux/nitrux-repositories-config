@@ -378,10 +378,6 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: 700' \
 	'' \
-	'Package: libspa-*' \
-	'Pin: release o=Debian,a=unstable,n=sid' \
-	'Pin-Priority: 700' \
-	'' \
 	'Package: libplasma-*' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -392,6 +388,10 @@
 	'' \
 	'Package: libpolkit-gobject-1-0' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
+	'Package: libpoppler-cpp0v5-*' \
+	'Pin: origin archive.neon.kde.org' \
 	'Pin-Priority: -1' \
 	'' \
 	'Package: libpowerdevil*' \
@@ -409,6 +409,10 @@
 	'Package: libqt5*' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
+	'' \
+	'Package: libspa-*' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: 700' \
 	'' \
 	'Package: libwacom2' \
 	'Pin: release o=Debian,a=unstable,n=sid' \

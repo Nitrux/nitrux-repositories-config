@@ -1,3 +1,9 @@
+nitrux-repositories-config (1.1.6+dfsg)  nitrux; urgency=medium
+
+  * Remove repository.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 04 Oct 2022 00:07:00 -0500
+
 nitrux-repositories-config (1.1.5+dfsg)  nitrux; urgency=medium
 
   * Remove repository.

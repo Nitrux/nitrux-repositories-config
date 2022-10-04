@@ -2,6 +2,7 @@
 
 OLD_FILES='
     /etc/apt/preferences
+    /etc/apt/sources.list.d/debian-experimental-repo.list
     /etc/apt/sources.list.d/devuan-beowulf-repo.list
     /etc/apt/sources.list.d/devuan-ceres-repo.list
     /etc/apt/sources.list.d/neon-repos.list

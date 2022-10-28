@@ -1,3 +1,9 @@
+nitrux-repositories-config (1.1.8+dfsg)  nitrux; urgency=medium
+
+  * Block package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 27 Oct 2022 23:44:00 -0500
+
 nitrux-repositories-config (1.1.7+dfsg)  nitrux; urgency=medium
 
   * Use new Neon suite.

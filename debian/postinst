@@ -670,6 +670,10 @@
 	'Pin: origin archive.neon.kde.org' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: libappimage1.0' \
+	'Pin: origin archive.neon.kde.org' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: libpipewire-*' \
 	'Pin: origin archive.neon.kde.org' \
 	'Pin-Priority: -1' \

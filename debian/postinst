@@ -70,6 +70,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
+	'Package: gcc-12-base' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: gir1.2-freedesktop' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
@@ -409,6 +413,10 @@
 	'Package: libspa-*' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: 700' \
+	'' \
+	'Package: libstdc++6' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
 	'' \
 	'Package: libwacom2' \
 	'Pin: release o=Debian,a=unstable,n=sid' \

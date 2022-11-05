@@ -1,3 +1,9 @@
+nitrux-repositories-config (1.2.6+dfsg)  nitrux; urgency=medium
+
+  * Update Liquorix codename.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 05 Nov 2022 05:37:00 -0500
+
 nitrux-repositories-config (1.2.5+dfsg)  nitrux; urgency=medium
 
   * Add Liquorix key.

@@ -747,7 +747,7 @@
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
 	55751E5D \
 	1118213C \
-	E734E623
+	9B72E6DF
 
 curl -L https://packagecloud.io/nitrux/repo/gpgkey | apt-key add
 curl -L https://packagecloud.io/nitrux/compat/gpgkey | apt-key add

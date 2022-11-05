@@ -1,5 +1,11 @@
 nitrux-repositories-config (1.2.4+dfsg)  nitrux; urgency=medium
 
+  * Add Liquorix key.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sat, 05 Nov 2022 04:44:00 -0500
+
+nitrux-repositories-config (1.2.4+dfsg)  nitrux; urgency=medium
+
   * Remove Xanmod repository, add Liquorix.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Sat, 05 Nov 2022 04:05:00 -0500

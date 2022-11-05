@@ -458,21 +458,9 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
 	'' \
-	'Package: openssh-client' \
-	'Pin: version 1:8.7p1-3' \
-	'Pin-Priority: -1' \
-	'' \
 	'Package: passwd' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \
-	'' \
-	'Package: pipewire' \
-	'Pin: origin archive.neon.kde.org' \
-	'Pin-Priority: 700' \
-	'' \
-	'Package: pipewire-*' \
-	'Pin: origin archive.neon.kde.org' \
-	'Pin-Priority: 700' \
 	'' \
 	'Package: plasma-*' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
@@ -705,14 +693,14 @@
 	'Package: libspa-*' \
 	'Pin: origin archive.neon.kde.org' \
 	'Pin-Priority: -1' \
-	'' \
+
 	'Package: pipewire' \
 	'Pin: origin archive.neon.kde.org' \
-	'Pin-Priority: -1' \
+	'Pin-Priority: 700' \
 	'' \
 	'Package: pipewire-*' \
 	'Pin: origin archive.neon.kde.org' \
-	'Pin-Priority: -1' \
+	'Pin-Priority: 700' \
 	'' \
 	'Package: sddm' \
 	'Pin: origin archive.neon.kde.org' \
@@ -769,12 +757,12 @@ rm -r \
 	/usr/share/keyrings/nitrux-compat.gpg \
 	/usr/share/keyrings/neon-archive.gpg \
 	/usr/share/keyrings/gpu-ppa.gpg \
-	/usr/share/keyrings/xanmod-repo.gpg \
+	/usr/share/keyrings/liquorix-ppa.gpg
 
 apt-key export 86A634D7 | gpg --dearmour -o /usr/share/keyrings/nitrux-repo.gpg
 apt-key export 712260DE | gpg --dearmour -o /usr/share/keyrings/nitrux-compat.gpg
 apt-key export 55751E5D | gpg --dearmour -o /usr/share/keyrings/neon-archive.gpg
 apt-key export 1118213C | gpg --dearmour -o /usr/share/keyrings/gpu-ppa.gpg
-apt-key export E734E623 | gpg --dearmour -o /usr/share/keyrings/xanmod-repo.gpg
+apt-key export 9B72E6DF | gpg --dearmour -o /usr/share/keyrings/liquorix-ppa.gpg
 
 apt -qq update

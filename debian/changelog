@@ -1,3 +1,9 @@
+nitrux-repositories-config (1.2.7+dfsg)  nitrux; urgency=medium
+
+  * Update packages list.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 01 Dec 2022 21:50:00 -0500
+
 nitrux-repositories-config (1.2.6+dfsg)  nitrux; urgency=medium
 
   * Update Liquorix codename.

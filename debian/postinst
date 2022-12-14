@@ -126,6 +126,10 @@
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: 700' \
 	'' \
+	'Package: kaccounts-integration' \
+	'Pin: release o=Debian,a=unstable,n=sid' \
+	'Pin-Priority: -1' \
+	'' \
 	'Package: kactivitymanagerd' \
 	'Pin: release o=Debian,a=unstable,n=sid' \
 	'Pin-Priority: -1' \

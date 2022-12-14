@@ -7,5 +7,5 @@
 # Nitrux Repos #
 ################
 
-deb [arch=amd64 signed-by=/usr/share/keyrings/nitrux-repo.gpg] https://repo.nxos.org repo
-deb [arch=amd64 trusted=yes signed-by=/usr/share/keyrings/nitrux-compat.gpg] https://repo.nxos.org compat
+deb [arch=amd64 trusted=yes signed-by=/usr/share/keyrings/nitrux-repo.gpg] https://repo.nxos.org repo main
+deb [arch=amd64 trusted=yes signed-by=/usr/share/keyrings/nitrux-compat.gpg] https://repo.nxos.org compat main
